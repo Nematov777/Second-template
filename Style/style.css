@@ -457,4 +457,125 @@ header ul li {
     display: flex;
     gap: 30px;
     justify-content: center;
+    margin: 48px 0 0;
+}
+
+.card {
+    width: 248px;
+    height: 312px;
+    background: #111213;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-image: url(/icons/shape-card.svg);
+    background-repeat: no-repeat;
+}
+
+.card__img--one {
+    margin: 32px 10px 0;
+}
+
+.much__card {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #F1F2F3;
+    padding: 38px 10px 0;
+}
+
+.card__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy__card--button {
+    width: 56px;
+    height: 48px;
+    left: 414px;
+    top: 412px;
+    background: #4177DC;
+    border-radius: 20px 0px;
+    vertical-align: auto;
+    margin: 40px 0 0 20px;
+    cursor: pointer;
+}
+
+.buy__card--img {
+    padding: 15px 20px;
+}
+
+.cards {
+    display: grid;
+    gap: 25px;
+    grid-template-areas:
+        "one two three"
+        "four five ."
+        ". . .";
+    margin: 72px 150px 0;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.section__five--h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #F1F2F3;
+    width: 312px;
+    padding: 0 0 32px;
+}
+
+.section__five--p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BABEC4;
+    width: 375px;
+    padding: 0 0 48px;
+}
+
+.section__five--button {
+    width: 174px;
+    height: 50px;
+    background: #4177DC;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.section__five {
+    background-image: url(/images/subscribe-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
 }
